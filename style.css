@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.Hero-section {
+    background-color: #c7c0c0;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.nab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.banner {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    background-color: gray;
+    opacity: 0.7;
+    height: 800px;
+
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.bannerhead {
+    font-size: 45px;
+
+}
+
+.About-Me {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.left {
+    width: 50%;
+    justify-items: center;
+}
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.card {
+    background-color: #e0dfaa;
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+
+}
+
+.card img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.Foter {
+    display: flex;
+    margin: 0 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.leftContent {
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+
+}
+.i {
+    font-size: 50px;
+}
+.rightContent {
+    width: 50%;
+}
+
+input {
+    width: 100%;
+padding-left: 10px;
+}
+
+.What-I-Do {
+    margin: 0 10px;
+}
