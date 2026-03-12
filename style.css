@@ -86,7 +86,8 @@ button {
     display: flex;
     align-items: stretch;
     justify-content: center;
-    margin: 0 10px;
+    padding:0 10px ;
+    background-color: rgb(188, 228, 228);
 }
 
 .left {
@@ -117,12 +118,12 @@ button {
 
 .Foter {
     display: flex;
-    margin: 0 10px;
-    background-color: rgb(231, 231, 231);
+   padding:0 10px ;
+    background-color: rgb(206, 205, 196);
 }
 
 .leftContent {
-    width: 50%;
+    width: 70%;
 }
 
 .icons {
@@ -133,11 +134,11 @@ button {
     font-size: 50px;
 }
 .rightContent {
-    width: 50%;
+    
 }
 
 input {
-    width: 100%;
+    width: 300px;
 padding-left: 10px;
 }
 
